@@ -68,3 +68,8 @@ app.use(session({
 app.get('/', async (req, res) => {
     res.render('home');
 });
+
+//for testing
+app.listen(port, () => {
+	console.log(`Server is running on port ${port}`);
+});
